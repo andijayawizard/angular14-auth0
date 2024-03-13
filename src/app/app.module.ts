@@ -31,7 +31,7 @@ import { environment as env } from '../environments/environment';
     HomeContentComponent,
     LoadingComponent,
     ExternalApiComponent,
-    ErrorComponent
+    ErrorComponent,
   ],
   imports: [
     BrowserModule,
@@ -69,4 +69,4 @@ import { environment as env } from '../environments/environment';
   ],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule { }
